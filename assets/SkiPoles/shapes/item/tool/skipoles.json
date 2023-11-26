@@ -1,0 +1,90 @@
+{
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {},
+  "textures": {
+    "bituminous": "game:assets/survival/textures/block/coal/bituminous",
+    "wood-generic": "game:assets/survival/textures/block/wood-generic"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [9.0, 0.0, 8.0],
+      "to": [9.0, 0.0, 8.0],
+      "rotationOrigin": [8.0, 0.0, 8.0],
+      "faces": {},
+      "children": [
+        {
+          "name": "long",
+          "from": [-8.8, 0.0, 0.0],
+          "to": [7.2, 0.5, 0.5],
+          "rotationOrigin": [0.0, 0.0, 0.0],
+          "rotationY": -45.0,
+          "faces": {
+            "north": {
+              "texture": "#wood-generic",
+              "uv": [0.0, 5.0, 16.0, 6.0],
+              "autoUv": false
+            },
+            "east": { "texture": "#wood-generic", "uv": [3.0, 3.0, 3.5, 3.5] },
+            "south": {
+              "texture": "#wood-generic",
+              "uv": [1.0, 8.5, 15.0, 8.0],
+              "autoUv": false
+            },
+            "west": { "texture": "#bituminous", "uv": [9.0, 3.5, 9.5, 4.0] },
+            "up": {
+              "texture": "#wood-generic",
+              "uv": [0.0, 12.5, 16.0, 13.0],
+              "windMode": [-1, -1, -1, -1]
+            },
+            "down": {
+              "texture": "#wood-generic",
+              "uv": [0.0, 2.5, 16.0, 3.5],
+              "autoUv": false
+            }
+          },
+          "children": [
+            {
+              "name": "Cube10",
+              "from": [12.0, -0.1, 0.0],
+              "to": [16.0, 0.4, 0.5],
+              "rotationOrigin": [12.0, -0.1, -1.0],
+              "rotationY": 22.5,
+              "faces": {
+                "north": {
+                  "texture": "#wood-generic",
+                  "uv": [0.0, 0.0, 4.0, 0.5]
+                },
+                "east": {
+                  "texture": "#wood-generic",
+                  "uv": [0.0, 0.0, 0.5, 0.5],
+                  "windMode": [-1, -1, -1, -1]
+                },
+                "south": {
+                  "texture": "#wood-generic",
+                  "uv": [0.0, 0.0, 4.0, 0.5],
+                  "windMode": [-1, -1, -1, -1]
+                },
+                "up": {
+                  "texture": "#wood-generic",
+                  "uv": [3.5, 11.0, 7.5, 11.5],
+                  "windMode": [-1, -1, -1, -1]
+                },
+                "down": {
+                  "texture": "#wood-generic",
+                  "uv": [5.0, 12.0, 9.0, 12.5],
+                  "windMode": [-1, -1, -1, -1]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

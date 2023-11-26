@@ -1,0 +1,5 @@
+{
+  "code": "skipoles",
+  "shape": { "base": "item/tool/skipoles" },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+}

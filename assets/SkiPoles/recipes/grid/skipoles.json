@@ -1,0 +1,15 @@
+{
+  "ingredientPattern": "SKS",
+  "ingredients": {
+    "S": { "type": "item", "code": "stick" },
+    "K": {
+      "type": "item",
+      "code": "knife",
+      "isTool": true,
+      "toolDurabilityCost": 10
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "item", "code": "game: ski-poles", "quantity": 1 }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "modid": "VillageXStory 0",
+    "name": "VillageXStory 0",
+    "authors": [
+        "GamingGeek"
+    ],
+    "description": "To be added",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
